@@ -1,0 +1,70 @@
+[
+  {
+    "charts": [],
+    "content": "[{\"id\":\"H-1\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>PROPOSAL OVERVIEW</b></span>\",\"col\":12}},{\"id\":\"S-1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Draft Proposals\",\"col\":4}},{\"id\":\"S-2\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Submitted Proposals\",\"col\":4}},{\"id\":\"S-3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Accepted Proposals\",\"col\":4}},{\"id\":\"SP-1\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"H-2\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h6\\\"><b>Quick Access</b></span>\",\"col\":12}},{\"id\":\"C-1\",\"type\":\"card\",\"data\":{\"card_name\":\"Proposals\",\"col\":6}},{\"id\":\"C-2\",\"type\":\"card\",\"data\":{\"card_name\":\"Configuration\",\"col\":6}}]",
+    "docstatus": 0,
+    "doctype": "Workspace",
+    "icon": "folder-normal",
+    "indicator_color": "blue",
+    "is_standard": 1,
+    "public": 1,
+    "sequence_id": 10,
+    "label": "Proposals",
+    "module": "Puryproposals",
+    "name": "Proposals",
+    "title": "Proposals",
+    "shortcuts": [
+  {
+    "color": "Gray",
+    "label": "Draft Proposals",
+    "link_to": "Proposal",
+    "stats_filter": "{\"docstatus\": 0}",
+    "type": "DocType"
+  },
+  {
+    "color": "Blue",
+    "label": "Submitted Proposals",
+    "link_to": "Proposal",
+    "stats_filter": "{\"docstatus\": 1}",
+    "type": "DocType"
+  }
+],
+    "links": [
+      {
+        "label": "Proposals",
+        "link_type": "DocType",
+        "type": "Card Break"
+      },
+      {
+        "label": "Proposal",
+        "link_to": "Proposal",
+        "link_type": "DocType",
+        "onboard": 1,
+        "type": "Link"
+      },
+      {
+        "label": "Configuration",
+        "link_type": "DocType",
+        "type": "Card Break"
+      },
+      {
+        "label": "Customer",
+        "link_to": "Customer",
+        "link_type": "DocType",
+        "type": "Link"
+      },
+      {
+        "label": "Item",
+        "link_to": "Item",
+        "link_type": "DocType",
+        "type": "Link"
+      },
+      {
+        "label": "Print Format",
+        "link_to": "Print Format",
+        "link_type": "DocType",
+        "type": "Link"
+      }
+    ]
+  }
+]
